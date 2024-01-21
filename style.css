@@ -1,0 +1,22 @@
+html,
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  width: 70vw;
+  height: 60vh;
+}
+
+#main_text {
+  font-size: 6em;
+  transition: transform 0.1s ease;
+}
+
+#main_text.active {
+  transform: scale(1.2);
+}
